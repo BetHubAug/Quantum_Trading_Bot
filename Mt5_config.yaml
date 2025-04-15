@@ -1,0 +1,12 @@
+terminal:
+  path: /opt/mt5/terminal64.exe
+  login: 100500
+  password: "encrypted:0xFAST_QUANTUM_KEYS"
+  server: "QuantumTrading-Demo"
+symbols:
+  default: "BTCUSD"
+  allowed_pairs: ["BTCUSD", "ETHUSD", "XAUUSD"]
+execution:
+  slippage: 10
+  magic_number: 1337
+  
